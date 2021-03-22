@@ -1,0 +1,32 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["NBWvqfn"]); }
+
+__d("CometNotificationsDropdownQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"4231059883593992",metadata:{},name:"CometNotificationsDropdownQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("SearchCometGlobalTypeaheadFocusEvent",[],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){return{publishGlobalTypeaheadFocus:function(){a.emit("focusGlobalSearchTypeahead")},subscribeToGlobalTypeaheadFocus:function(b){var c=a.addListener("focusGlobalSearchTypeahead",b);return function(){return c.remove()}}}}}),null);
+__d("SearchCometScopedTypeaheadFocusEvent",[],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){return{publishScopedSearchTypeaheadFocus:function(){a.emit("scopedSearchTypeaheadFocus")},subscribeToScopedSearchTypeaheadFocus:function(b){var c=a.addListener("scopedSearchTypeaheadFocus",b);return function(){return c.remove()}}}}}),null);
+__d("CometSearchEventEmitterProvider",["CometSearchEventEmitterContext","cometSearchEventEmitter","react"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g,h=b("CometSearchEventEmitterContext").Provider,i=g||(g=b("react"));function a(a){a=a.children;return i.jsx(h,{value:b("cometSearchEventEmitter"),children:a})}}),null);
+__d("CometSearchRecentSearchEntryAddedEvent",[],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){return{publishRecentSearchEntryAdded:function(b){a.emit("recentSearchEntryAdded",b)},subscribeToRecentSearchEntryAdded:function(b){var c=a.addListener("recentSearchEntryAdded",b);return function(){return c.remove()}}}}}),null);
+__d("CometSearchRecentSearchEntryRemovedEvent",[],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){return{publishRecentSearchEntryRemoved:function(b){a.emit("recentSearchEntryRemoved",b)},subscribeToRecentSearchEntryRemoved:function(b){var c=a.addListener("recentSearchEntryRemoved",b);return function(){return c.remove()}}}}}),null);
+__d("asset",[],(function(a,b,c,d,e,f){function a(){for(var a=arguments.length,b=new Array(a),c=0;c<a;c++)b[c]=arguments[c];throw new Error("asset("+b.join(",")+"): Unexpected asset reference")}e.exports=a}),null);
+__d("AFXPresentationStyles",[],(function(a,b,c,d,e,f){a=Object.freeze({BOTTOM_SHEET:1,FULL_SCREEN:2,FLEXIBLE_HEIGHT_BOTTOM_SHEET:3,DIALOG:4,NON_DISMISSIBLE_DIALOG:5,NON_DISMISSIBLE_FULL_SCREEN:6});e.exports=a}),null);
+__d("CometGamingBadgeCountDeferred.react",["deferredLoadComponent","react","requireDeferredForDisplay"],(function(a,b,c,d,e,f){"use strict";var g;g||b("react");a=b("deferredLoadComponent")(b("requireDeferredForDisplay")("CometGamingBadgeCount.react"));e.exports=a}),null);
+__d("CometWatchAndScrollSoundContext",["react"],(function(a,b,c,d,e,f){"use strict";var g;a=g||b("react");c=a.createContext({muted:null,setMuted:function(){},setVolume:function(){},volume:null});e.exports=c}),null);
+__d("CometWatchAndScrollDeferred.react",["deferredLoadComponent","react","requireDeferred"],(function(a,b,c,d,e,f){"use strict";var g;g||b("react");a=b("deferredLoadComponent")(b("requireDeferred")("CometWatchAndScroll.react"));e.exports=a}),null);
+__d("usePrevious",["react"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g,h=g||b("react");function a(a){var b=h.useRef(null);h.useEffect(function(){b.current=a});return b.current}}),null);
+__d("CometWatchAndScrollSetStoryViewabilityLoggerContext",["react"],(function(a,b,c,d,e,f){"use strict";var g;a=g||b("react");c=a.createContext(function(){});e.exports=c}),null);
+__d("LSChatBootstrapParams.bs",["gkx"],(function(a,b,c,d,e,f){"use strict";a=b("gkx")("1805180")?0:15;c="chat_tabs";f.numThreads=a;f.callerSource=c}),null);
+__d("CometWatchAndScrollStoryViewabilityLoggerContext",["react"],(function(a,b,c,d,e,f){"use strict";var g;a=g||b("react");c=a.createContext(null);e.exports=c}),null);
+__d("SearchCometExploreTracePolicy",[],(function(a,b,c,d,e,f){a=Object.freeze({HASHTAG:"comet.search_explore.hashtag",TOPIC:"comet.search_explore.topic"});e.exports=a}),null);
+__d("XAdsSettingsNavControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/settings/ads/",Object.freeze({}),void 0);c=a;e.exports=c}),null);
+__d("isSearchCometExploreTracePolicy",["SearchCometExploreTracePolicy"],(function(a,b,c,d,e,f){"use strict";e.exports=a;function a(a){return Object.values(b("SearchCometExploreTracePolicy")).includes(a)}}),null);
+__d("MWChatMultitabProvider.re",["MWChatMultitabProvider.bs"],(function(a,b,c,d,e,f){a=b("MWChatMultitabProvider.bs").getStateSnapshot;f.getStateSnapshot=a;(function(a){return null});c=b("MWChatMultitabProvider.bs").make;f.make=c}),null);
+__d("XCometBookmarksControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/bookmarks/",Object.freeze({}),void 0);c=a;e.exports=c}),null);
+__d("LSChatBootstrapParams.re",["LSChatBootstrapParams.bs"],(function(a,b,c,d,e,f){a=b("LSChatBootstrapParams.bs").numThreads;f.numThreads=a;c=b("LSChatBootstrapParams.bs").callerSource;f.callerSource=c}),null);
+__d("BuildCometRootLoggedIn",["cr:1707461"],(function(a,b,c,d,e,f){"use strict";a=b("cr:1707461").buildRootComponent;f.buildRootComponent=a}),null);
+__d("MWChatMultiTabProvider.react",["MWChatMultitabProvider.re"],(function(a,b,c,d,e,f){"use strict";a=b("MWChatMultitabProvider.re").make;e.exports=a}),null);
+__d("BuildCometRoot",["cr:1707460"],(function(a,b,c,d,e,f){"use strict";a=b("cr:1707460").buildRootComponent;f.buildRootComponent=a}),null);
+__d("LSBootstrap.re",["LSBootstrap.bs"],(function(a,b,c,d,e,f){a=function(a){a=b("LSBootstrap.bs").start(a.numThreads);return a};f.start=a}),null);
+__d("PredictionThresholds",[],(function(a,b,c,d,e,f){"use strict";a=10;f.MAX_JEWEL_BADGE=a;b=1;f.MIN_JEWEL_BADGE=b}),null);
+__d("MWChatProvider.react",["cr:1618366"],(function(a,b,c,d,e,f){"use strict";e.exports=b("cr:1618366")}),null);
+__d("PushNotificationsEventEmitterQueue",[],(function(a,b,c,d,e,f){"use strict";a=[];e.exports=a}),null);
+__d("objectEntries",[],(function(a,b,c,d,e,f){e.exports=a;function a(a){return Object.entries(a)}}),null);
+__d("CometLoggedOutTabsList",[],(function(a,b,c,d,e,f){"use strict";a=[];e.exports=a}),null);
